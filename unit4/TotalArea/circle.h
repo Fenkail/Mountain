@@ -8,4 +8,7 @@ public:
     Circle();
     Circle(double rr);
     double getArea();
+    double getR() const;
+    void setR(double r);
+
 };
