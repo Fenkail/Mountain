@@ -3,8 +3,14 @@
 using std::cout;
 using std::endl;
 
-int main(){
-    cout<<"开始"<<endl;
-    
-    return 0;
+int i = 1;
+
+int main()
+{
+char s[] = {'H', 'e', 'l', 'l', 'o'};
+auto i = 0;
+for(char c : s) {
+  i++;
+}
+cout << i;
 }

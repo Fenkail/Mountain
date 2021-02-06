@@ -2,8 +2,8 @@
 #include <string>
 #include <vector>
 #include "Shape.h"
-#include "Circle.h"
-#include "Rectangle.h"
+#include "Circle.cpp"
+#include "Rectangle.cpp"
 
 using std::cout;
 using std::endl;
