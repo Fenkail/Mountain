@@ -1,16 +1,14 @@
 #include <iostream>
+#include <string>
+#include <vector>
 
 using std::cout;
 using std::endl;
+using std::string;
+using std::vector;
 
-int i = 1;
 
 int main()
 {
-char s[] = {'H', 'e', 'l', 'l', 'o'};
-auto i = 0;
-for(char c : s) {
-  i++;
-}
-cout << i;
+
 }
